@@ -1,6 +1,6 @@
 #Exemplos de entrada dos 4 tipos de dados e saída com print.
 #Conceitos usados:str simples(sem uso de métodos),int,float,bool e print
-#OBS:Caso queira printar o valor da variável junto com um texto adicional ou outros valores é necessário uso de  f-string.
+#OBS:Caso queira printar o valor da variável junto com um texto adicional ou outros valores é necessário uso de  f-string ou formatação pelo método .format().
 
 #str,texto
 nome=input("Qual seu nome?")
@@ -20,5 +20,6 @@ y = False
 
 print(x)   # saída: True
 print(y)   # saída: False		#Exemplo foi dado sem input para simplificar.
+
 
 
